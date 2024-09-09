@@ -2,3 +2,8 @@ streamlit
 pandas
 sqlalchemy
 pyodbc
+networkx
+pyvis.network
+plotly.express
+streamlit_navigation_bar
+xlsxwriter
