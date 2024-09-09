@@ -3,7 +3,7 @@ pandas
 sqlalchemy
 pyodbc
 networkx
-pyvis.network
-plotly.express
+pyvis
+plotly
 streamlit_navigation_bar
 xlsxwriter
