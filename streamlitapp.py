@@ -23,7 +23,7 @@ def get_credentials():
 # Function to connect to the database and fetch data
 def connect_db (user, password, host, port, database):
     try:
-        engine = sal.create_engine(f'mssql+pyodbc://{user}:{password}@{host}:{port}/{database}?driver=ODBC Driver 18 for SQL Server&Encrypt=no')
+        engine = sal.create_engine(f'mssql+pyodbc://{user}:{password}@{host}:{port}/{database}?driver=ODBC Driver 17 for SQL Server&Encrypt=no')
         return engine
     except Exception as e:
         st.error(f"Error: {e}")
